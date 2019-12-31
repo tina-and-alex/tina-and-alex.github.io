@@ -261,7 +261,7 @@ footer {
     /*display: table-cell;    */
     text-align: center;
     vertical-align: middle;
-    color: #fff;
+    /*color: #fff;*/
     background-color: rgba(0,0,0,0.4)
 
 }
