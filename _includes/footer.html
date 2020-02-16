@@ -2,17 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
+        <h4><strong><font color="white">{{ site.owner }}</font></strong>
         </h4>
-        <p>
+        <p><font color="white">
           {% for address in site.address %}
           {{ address.line }}<br>
           {% endfor %}
+        </font>
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled"><font color="white">
           <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
           <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
+        </font>
         </ul>
         <br>
         <ul class="list-inline">
@@ -27,7 +29,7 @@
           </li>
         </ul>
         <hr class="small">
-        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        <p class="text-muted"><font color="white">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</font></p>
       </div>
     </div>
   </div>
