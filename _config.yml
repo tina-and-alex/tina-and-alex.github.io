@@ -2,22 +2,21 @@
 title: Tina & Alex
 email: alex@korbonits.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Tina and Alex are excited to announce that we're getting married!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
 owner: Tina Sohaili & Alex Korbonits
 email: alex@korbonits.com
-facebook_username:
+facebook_username: korbonits
 twitter_username: korbonits
 github_username: korbonits
 address:
   - line: Riviera Country Club
-  - line: 1250 Capri Dr, Pacific Palisades, CA 90272
-  # Feel free to add more lines here 
+  - line: 1250 Capri Dr
+  - line: Pacific Palisades, CA 90272
+  # Feel free to add more lines here
 telephone: (206) 818-1458
 copyright:
 
