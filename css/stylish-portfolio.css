@@ -33,7 +33,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     color: #D6D6CE;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* Custom Button Styles */
@@ -174,6 +174,15 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
     margin: auto;
+}
+
+.empty-divider {
+    height: 70px;
+    /*background-image: url(https://d3t14gfu9ehll4.cloudfront.net/themes/4fc3397f-227e-4f5d-82f3-d18bbcd36b60/root_LargeDivider_o7VZvVW.png);*/
+    background-size: auto 50px;
+    background-color: #800000;
+    background-position: center center;
+    background-repeat: repeat-x;
 }
 
 /* About */
