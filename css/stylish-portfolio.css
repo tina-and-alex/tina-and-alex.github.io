@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    background-color: #800000;
+    background-color: #752f30;
 }
 
 .text-vertical-center {
@@ -180,7 +180,7 @@ hr.small {
     height: 70px;
     /*background-image: url(https://d3t14gfu9ehll4.cloudfront.net/themes/4fc3397f-227e-4f5d-82f3-d18bbcd36b60/root_LargeDivider_o7VZvVW.png);*/
     background-size: auto 50px;
-    background-color: #800000;
+    background-color: #752f30;
     background-position: center center;
     background-repeat: repeat-x;
 }
@@ -282,7 +282,7 @@ footer {
     text-align: center;
     vertical-align: middle;
     /*background-color: #D4AF37*/
-    background-color: #800000;
+    background-color: #752f30;
 
 }
 
