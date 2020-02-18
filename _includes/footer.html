@@ -3,15 +3,15 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong><font color="#D6D6CE">{{ site.owner }}</font></strong>
+        <h4><strong><font color="#D4AF37">{{ site.owner }}</font></strong>
         </h4>
-        <p><font color="#D6D6CE">
+        <p><font color="#D4AF37">
           {% for address in site.address %}
           {{ address.line }}<br>
           {% endfor %}
         </font>
         </p>
-        <ul class="list-unstyled"><font color="#D6D6CE">
+        <ul class="list-unstyled"><font color="#D4AF37">
           <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
           <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
@@ -30,7 +30,7 @@
           </li>
         </ul>
         <hr class="small">
-        <p class="text-muted"><font color="#D6D6CE">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</font></p>
+        <p class="text-muted"><font color="#D4AF37">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</font></p>
       </div>
     </div>
   </div>
